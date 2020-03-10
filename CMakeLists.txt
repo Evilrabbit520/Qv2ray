@@ -162,6 +162,9 @@ set(QV2RAY_SOURCES
   src/components/proxy/QvProxyConfigurator.cpp
   src/components/speedchart/speedplotview.cpp
   src/components/speedchart/speedwidget.cpp
+  src/components/darkmode/DarkmodeDetector_linux.cpp
+  src/components/darkmode/DarkmodeDetector_win.cpp
+  src/components/darkmode/DarkmodeDetector_mac.cpp
   src/core/connection/ConnectionIO.cpp
   src/core/connection/Generation.cpp
   src/core/connection/Serialization.cpp
@@ -197,7 +200,6 @@ set(QV2RAY_SOURCES
   src/ui/w_PreferencesWindow.cpp
   src/ui/w_ScreenShot_Core.cpp
   src/ui/w_SubscriptionManager.cpp
-  # ui files
   src/ui/w_ExportConfig.ui
   src/ui/w_SubscriptionManager.ui
   src/ui/editors/w_OutboundEditor.ui
@@ -211,7 +213,6 @@ set(QV2RAY_SOURCES
   src/ui/w_MainWindow.ui
   src/ui/w_PreferencesWindow.ui
   src/ui/w_ScreenShot_Core.ui
-
   assets/qv2ray.rc
 )
 
